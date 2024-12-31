@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: light-dark(#282c34, white);
+    color: light-dark(#282c34, white);
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: block;
+    align-content: center;    
+
+}
+
+
+h1{
+   
+    font-size: 54px;
+}
+p{
+    font-size: 47px;
+}
+
+#word{
+    position: relative;
+    bottom: 17px;
+    font-size: 30px;
+
+}
+#input{
+    
+width: 60vh;
+height: 5cqh;
+font-size: 20px;
+}
+#score{
+    position: relative;
+    top: 23px;
+    font-size: 30px;
+}
+#time{
+    position: relative;
+    top: 30px;
+    font-size: 30px;
+
+}
+
+#playButton{
+    position: relative;
+    top: 40px;
+}
+#pauseButton{ 
+    position: relative;
+    top: 34px;
+}
+#alertButton{
+    border: 2px solid white;
+    font-size: 70px;
+    font-weight: bold;
+    background-color: #282c34;
+    color: blue;
+    position: relative;
+    bottom: 140px;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+#alertButton:hover {
+    border: 2px solid #3498db;
+    box-shadow: 0 0 10px rgba(52, 152, 219, 0.5);
+}
+
+#mode{
+    position: relative;
+    top: 40px;
+    left: 34px;
+}
+
